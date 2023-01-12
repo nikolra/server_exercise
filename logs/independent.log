@@ -1,0 +1,2 @@
+08-01-2023 22:32:55.822 INFO: Performing operation divide. Result is 2 | request #3
+08-01-2023 22:32:55.822 DEBUG: Performing operation: divide(4, 2) = 2 | request #3

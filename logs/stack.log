@@ -1,0 +1,19 @@
+08-01-2023 22:32:55.769 INFO: Stack size is 0 | request #1
+08-01-2023 22:32:55.804 INFO: Adding total of 2 argument(s) to the stack | Stack size: 2 | request #2
+08-01-2023 22:32:55.838 INFO: Stack size is 2 | request #4
+08-01-2023 22:32:55.878 INFO: Stack size is 2 | request #6
+08-01-2023 22:32:55.879 DEBUG: Stack content (first == top): [3, 2] | request #6
+08-01-2023 22:32:55.895 INFO: Performing operation fact. Result is 6 | stack size: 1 | request #7
+08-01-2023 22:32:55.896 DEBUG: Performing operation: fact(3) = 6 | request #7
+08-01-2023 22:32:55.910 ERROR: Server encountered an error ! message: Error: cannot implement operation minus. It requires 2 arguments and the stack has only 1 arguments | request #8
+08-01-2023 22:32:55.930 INFO: Adding total of 2 argument(s) to the stack | Stack size: 3 | request #9
+08-01-2023 22:32:55.930 DEBUG: Adding arguments: 8, 5 | Stack size before 1 | stack size after 3 | request #9
+08-01-2023 22:32:55.946 INFO: Performing operation minus. Result is -3 | stack size: 1 | request #10
+08-01-2023 22:32:55.948 DEBUG: Performing operation: minus(5,8) = -3 | request #10
+08-01-2023 22:32:55.976 INFO: Adding total of 2 argument(s) to the stack | Stack size: 3 | request #12
+08-01-2023 22:32:55.977 DEBUG: Adding arguments: 2, 3 | Stack size before 1 | stack size after 3 | request #12
+08-01-2023 22:32:55.993 INFO: Performing operation abs. Result is 3 | stack size: 2 | request #13
+08-01-2023 22:32:55.996 DEBUG: Performing operation: abs(3) = 3 | request #13
+08-01-2023 22:32:56.120 INFO: Removing total 1 argument(s) from the stack | Stack size: 1 | request #14
+08-01-2023 22:32:56.290 INFO: Stack size is 1 | request #15
+08-01-2023 22:32:56.300 DEBUG: Stack content (first == top): [2] | request #15
